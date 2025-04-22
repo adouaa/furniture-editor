@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "./", // 将基本公共路径设置为相对路径
+  base: "/furniture-editor/", // 修改为仓库名称
   build: {
     outDir: "dist", // 打包输出目录
     assetsDir: "assets", // 静态资源目录
